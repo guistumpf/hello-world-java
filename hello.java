@@ -1,12 +1,21 @@
 public class hello {
     public static void main(String[] args) {
-final int pontosmax = 500;
 
-int pontosuser = 422;
+int idade = 18;
+boolean cidadao = false;
 
-float porcentagem = (float) pontosuser / pontosmax * 100.0f;
+if(idade >= 18){
+    System.out.println("Idade suficiente para votar. ");
+    if(cidadao){
+        System.out.println("E você é um cidadão, então pode votar!");
+    }else{
+        System.out.println("Porém você não é um cidadão local.");
+    } 
+
+} else {
+    System.out.println("Idade insuficiente.");
+}
 
 
-System.out.println("Falta " + porcentagem + " para você vencer!");
 } 
 }
