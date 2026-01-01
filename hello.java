@@ -1,5 +1,6 @@
 public class hello {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        String nome = "Luis";
+        System.out.println(2025 + 1 + " is here " + nome + "!");
     }
 }
