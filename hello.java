@@ -1,14 +1,12 @@
 public class hello {
     public static void main(String[] args) {
-final float preco = 14.99f;
-int estoque = 38;
-float valortotal = preco * estoque;
-char moeda = '$';
+final int pontosmax = 500;
 
-System.out.println("Cada item custa " + preco + moeda);
-System.out.println("E temos " + estoque + " items no estoque");
-System.out.println("O que significa que o estoque inteiro custa " + valortotal + moeda );
+int pontosuser = 422;
+
+float porcentagem = (float) pontosuser / pontosmax * 100.0f;
 
 
+System.out.println("Falta " + porcentagem + " para você vencer!");
 } 
 }
