@@ -1,9 +1,10 @@
 public class hello {
     public static void main(String[] args) {
-        int idade, ano, dia;
-        idade = 27; ano = 2026; dia = 1;
-        String nome = "Luis";
-        System.out.println(nome + " você tem " + idade + " anos de idade");
-        System.out.println("Hoje é dia " + dia + " de janeiro de " + ano);
-    }
+final int lado = 12;
+int area;
+area = lado * lado; 
+
+System.out.println("Considerando que um dos lados do quadrado mede 2cm², podemos dizer que a área é de: ");
+System.out.println("Resposta: " + area);    
+}
 }
