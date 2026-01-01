@@ -1,9 +1,14 @@
 public class hello {
     public static void main(String[] args) {
-boolean é2026 = true;
-boolean é2025 = false;  
+final float preco = 14.99f;
+int estoque = 38;
+float valortotal = preco * estoque;
+char moeda = '$';
 
-System.out.println("estamos em 2026? " + é2026);
-System.out.println("estamos em 2025? " + é2025);
+System.out.println("Cada item custa " + preco + moeda);
+System.out.println("E temos " + estoque + " items no estoque");
+System.out.println("O que significa que o estoque inteiro custa " + valortotal + moeda );
+
+
 } 
 }
