@@ -1,10 +1,9 @@
 public class hello {
     public static void main(String[] args) {
-final int lado = 12;
-int area;
-area = lado * lado; 
+boolean é2026 = true;
+boolean é2025 = false;  
 
-System.out.println("Considerando que um dos lados do quadrado mede 2cm², podemos dizer que a área é de: ");
-System.out.println("Resposta: " + area);    
-}
+System.out.println("estamos em 2026? " + é2026);
+System.out.println("estamos em 2025? " + é2025);
+} 
 }
