@@ -4,7 +4,7 @@
     {
       "label": "Run Java Clean",
       "type": "shell",
-     "command": "javac hello.java; if ($?) { java hello }",
+     "command": "javac Main.java; if ($?) { java Main }",
       "group": {
         "kind": "build",
         "isDefault": true
