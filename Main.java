@@ -1,22 +1,19 @@
-public class Main {
-    static void minhafuncao(String name, int age) {
-System.out.println(name + " tem " + age + " anos");
-if(age >= 18){
-    System.out.println("° " + name + " Tem idade o suficiente!");
-} else {
-    System.out.println("° " + name + " Não tem idade o suficiente! ");
+public class Main{
+    static int Preco(int preço , int desconto){
+return preço + desconto;
+    }
+
+    static float Preco( float preço, float desconto){
+        return preço - desconto;
+    }
+
+
+public static void main(String[] args) {
+    int estoquetotal = Preco(100, 20);
+    float preçodesconto = Preco(99.99f, 19.99f);
+System.out.println("eNós temos no total " + estoquetotal + " peças no estoque, embora ainda temos de receber algumas");
+System.out.println("O preço do item com desconto é " + preçodesconto);
 }
 
 
 }
-
-public static void main(String[] args){
-minhafuncao("Renato", 23);
-minhafuncao("Jean", 19);
-minhafuncao("Bruna", 17);
-
-}
-
-
-}
-
